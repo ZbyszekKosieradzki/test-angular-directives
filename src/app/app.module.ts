@@ -3,10 +3,12 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { SuperBorderDirective } from './directives/super-border.directive';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    SuperBorderDirective
   ],
   imports: [
     BrowserModule,
